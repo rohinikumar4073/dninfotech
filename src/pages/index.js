@@ -1,38 +1,41 @@
-import React from "react"
+import React from 'react';
 import Layout from "../components/App/Layout"
 import SEO from "../components/App/SEO"
-import Navbar from "../components/App/Navbar"
-import MainBanner from "../components/HomeDemoOne/MainBanner"
-import Features from "../components/HomeDemoOne/Features"
-import AboutSection from "../components/HomeDemoOne/AboutSection"
-import WhatWeDo from "../components/Common/WhatWeDo"
-import ServicesCard from "../components/Common/ServicesCard"
-import TestimonialStyleOne from "../components/Common/TestimonialStyleOne"
-import Partner from "../components/Common/Partner"
-import OurTeamStyleOne from "../components/Common/OurTeamStyleOne"
-import Pricing from "../components/Common/Pricing"
-import SubscribeForm from "../components/Common/SubscribeForm"
-import Footer from "../components/App/Footer"
+import NavbarStyleTwo from '../components/App/NavbarStyleTwo';
+import MainBanner from '../components/HomeDemoTwo/MainBanner';
+import FeaturedService from '../components/HomeDemoTwo/FeaturedService';
+import AboutSection from '../components/HomeDemoTwo/AboutSection';
+import ServicesCard from '../components/Common/ServicesCard';
+import WhatWeDo from '../components/Common/WhatWeDo';
+import TestimonialStyleTwo from '../components/Common/TestimonialStyleTwo';
+import CaseStudies from '../components/Common/CaseStudies';
+import Partner from '../components/Common/Partner';
+import OurTeamStyleTwo from '../components/Common/OurTeamStyleTwo';
+import Pricing from '../components/Common/Pricing';
+import StartProjectWithUs from '../components/Common/StartProjectWithUs';
+import LatestBlogPost from '../components/Common/LatestBlogPost';
+import Footer from '../components/App/Footer';
 
-const HomeOne = () => {
+const HomeTwo = () => {
     return (
         <Layout>
-            <SEO title="Home One" />
-            <Navbar />
+            <SEO title="Home Two" />
+            <NavbarStyleTwo />
             <MainBanner />
-            <Features />
+            <FeaturedService />
             <AboutSection />
-            <WhatWeDo />
             <ServicesCard />
-            <TestimonialStyleOne />
+            <WhatWeDo />
+            <TestimonialStyleTwo />
+            <CaseStudies />
             <Partner />
-            <OurTeamStyleOne />
+            <OurTeamStyleTwo />
             <Pricing />
-            <SubscribeForm />
+            <StartProjectWithUs />
+            <LatestBlogPost />
             <Footer />
         </Layout>
     )
 }
- 
 
-export default HomeOne
+export default HomeTwo;

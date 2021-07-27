@@ -73,52 +73,10 @@ const NavbarStyleTwo = () => {
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
                                         <Link to="/#" activeClassName="active" onClick={e => e.preventDefault()} className="nav-link">
-                                            Home <i className='bx bx-chevron-down'></i>
+                                            Home
                                         </Link>
 
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link to="/" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 1
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-2" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 2
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-3" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 3
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-4" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 4
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-5" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 5
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-6" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 6
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link to="/index-7" activeClassName="active" onClick={toggleNavbar} className="nav-link">
-                                                    Home Demo - 7
-                                                </Link>
-                                            </li>
-                                        </ul>
+                                       
                                     </li>
 
                                     <li className="nav-item">
