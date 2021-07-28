@@ -412,15 +412,6 @@ const Navbar = () => {
 
                             <div className="others-option d-flex align-items-center">
                                 <div className="option-item">
-                                    <div className="cart-btn">
-                                        <Link to="/cart">
-                                            <i className="flaticon-shopping-cart"></i>
-                                            <span>1</span>
-                                        </Link>
-                                    </div>
-                                </div>
-
-                                <div className="option-item">
                                     <div className="search-box" onClick={handleToggleSearchModal}>
                                         <i className="flaticon-search"></i>
                                     </div>

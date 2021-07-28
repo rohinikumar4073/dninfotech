@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link} from 'gatsby'
 
-import Logo from "../../assets/images/white-logo.png"
+import Logo from "../../assets/images/white-logo2.png"
 import BlackLogo from "../../assets/images/logo.png"
 
 import InstagramImg1 from "../../assets/images/team/team-img1.jpg"
@@ -370,14 +370,6 @@ const NavbarStyleTwo = () => {
                             </div>
 
                             <div className="others-option d-flex align-items-center">
-                                <div className="option-item">
-                                    <div className="cart-btn">
-                                        <Link to="/cart">
-                                            <i className="flaticon-shopping-cart"></i>
-                                            <span>1</span>
-                                        </Link>
-                                    </div>
-                                </div>
 
                                 <div className="option-item">
                                     <div className="search-box" onClick={handleToggleSearchModal}>
