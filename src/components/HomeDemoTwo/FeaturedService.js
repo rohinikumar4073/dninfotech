@@ -19,7 +19,6 @@ const FeaturedService = () => {
                                     Marketing Analysis
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -42,7 +41,6 @@ const FeaturedService = () => {
                                     Website Optimization
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -65,7 +63,6 @@ const FeaturedService = () => {
                                     Email Marketing
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 

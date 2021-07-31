@@ -8,7 +8,6 @@ const ServicesCard = () => {
                 <div className="section-title">
                     <span className="sub-title">Services</span>
                     <h2>Let’s Check Our Services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                 </div>
 
                 <div className="row">
@@ -26,7 +25,6 @@ const ServicesCard = () => {
                                     Social Media Marketing
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
 
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -50,7 +48,6 @@ const ServicesCard = () => {
                                     Keyward Research
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -74,7 +71,6 @@ const ServicesCard = () => {
                                     Content Marketing
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -98,7 +94,6 @@ const ServicesCard = () => {
                                     PPC Advertising
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -122,7 +117,6 @@ const ServicesCard = () => {
                                     Competitor Research
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 
@@ -146,7 +140,6 @@ const ServicesCard = () => {
                                     Skyrocketing Growth
                                 </Link>
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             
                             <Link to="/single-services" className="learn-more-btn">
                                 <i className="left-icon flaticon-next-button"></i> 

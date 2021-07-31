@@ -70,12 +70,7 @@ const MainBanner = () => {
                                                     Get Started
                                                 </Link>
 
-                                                <div
-                                                    onClick={e => {e.preventDefault(); openModal()}}
-                                                    className="video-btn popup-youtube"
-                                                > 
-                                                    <i className="flaticon-play-button"></i> Watch Video
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -102,12 +97,7 @@ const MainBanner = () => {
                                                     Get Started
                                                 </Link>
 
-                                                <div
-                                                    onClick={e => {e.preventDefault(); openModal()}}
-                                                    className="video-btn popup-youtube"
-                                                > 
-                                                    <i className="flaticon-play-button"></i> Watch Video
-                                                </div>
+                                               
                                             </div>
                                         </div>
                                     </div>
