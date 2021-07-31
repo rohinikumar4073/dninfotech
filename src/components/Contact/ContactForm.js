@@ -21,7 +21,7 @@ const ContactForm = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="contact-form">
-                            <form id="contactForm" data-netlify="true" name='contactdetails'>
+                            <form id="contactForm" data-netlify="true" method="POST" name='contactdetails'>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
