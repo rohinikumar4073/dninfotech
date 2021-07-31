@@ -525,7 +525,7 @@ const Navbar = () => {
                                 <h2>
                                     <a to="tel:+11234567890">+1 (123) 456 7890</a>
                                     <span>OR</span>
-                                    <a to="mailto:hello@mibix.com">hello@mibix.com</a>
+                                    <a to="mailto:hr@dninfotechs.com">hr@dninfotechs.com</a>
                                 </h2>
                             </div>
 

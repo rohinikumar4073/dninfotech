@@ -42,8 +42,8 @@ const Contact = () => {
                                     <i className='bx bx-phone-call'></i>
                                 </div>
                                 <h3>Contact</h3>
-                                <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
-                                <p>E-mail: <a href="mailto:hello@mibix.com">hello@mibix.com</a></p>
+                                <p>Mobile: <a href="tel:+16477859465">(+1) 647 785 9465</a></p>
+                                <p>E-mail: <a href="mailto:hr@dninfotechs.com">hr@dninfotechs.com</a></p>
                             </div>
                         </div>
 

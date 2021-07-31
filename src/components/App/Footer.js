@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-import WhiteLogo from "../../assets/images/white-logo.png"
+import WhiteLogo from "../../assets/images/white-logo2.png"
 import Shape16 from "../../assets/images/shape/shape16.png"
 
 const Footer = () => {
@@ -90,7 +90,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <i className='bx bx-envelope'></i>
-                                    <a href="mailto:hello@mibix.com">hello@mibix.com</a>
+                                    <a href="mailto:hr@dninfotechs.com">hr@dninfotechs.com</a>
                                 </li>
                                 <li>
                                     <i className='bx bxs-inbox'></i>
