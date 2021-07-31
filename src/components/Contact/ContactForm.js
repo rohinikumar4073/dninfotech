@@ -52,7 +52,8 @@ const ContactForm = () => {
                                             <textarea name="text" cols="30" rows="5" placeholder="Write your message..." className="form-control" />
                                         </div>
                                     </div>
-                
+                                    <input type="hidden" name="form-name" value="contactdetails" />
+
                                     <div className="col-lg-12 col-sm-12">
                                         <button type="submit" className="default-btn">Send Message</button>
                                     </div>
