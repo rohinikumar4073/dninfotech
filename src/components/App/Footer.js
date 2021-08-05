@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby"
 
-import WhiteLogo from "../../assets/images/white-logo.png"
+import WhiteLogo from "../../assets/images/white-logo2.png"
 import Shape16 from "../../assets/images/shape/shape16.png"
 
 const Footer = () => {
@@ -16,7 +16,6 @@ const Footer = () => {
                             <Link to="/" className="logo">
                                 <img src={WhiteLogo} alt="logo" />
                             </Link>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
 
                             <ul className="social-link">
                                 <li><a href="#" className="d-block" target="_blank"><i className='bx bxl-facebook'></i></a></li>
