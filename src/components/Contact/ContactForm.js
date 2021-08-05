@@ -21,7 +21,7 @@ const ContactForm = () => {
 
                     <div className="col-lg-6 col-md-12">
                         <div className="contact-form">
-                            <form id="contactForm">
+                            <form id="contactForm" data-netlify="true" method="POST" name='contactdetails'>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="form-group">
@@ -52,7 +52,8 @@ const ContactForm = () => {
                                             <textarea name="text" cols="30" rows="5" placeholder="Write your message..." className="form-control" />
                                         </div>
                                     </div>
-                
+                                    <input type="hidden" name="form-name" value="contactdetails" />
+
                                     <div className="col-lg-12 col-sm-12">
                                         <button type="submit" className="default-btn">Send Message</button>
                                     </div>

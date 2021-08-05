@@ -63,7 +63,6 @@ const MainBanner = () => {
                                     <div className="banner-content">
                                         <span className="sub-title">Growth Your Business</span>
                                         <h1>We Provide Best Digital Marketing Solutions</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                         
                                         <div className="btn-box">
                                             <div className="d-flex align-items-center">
@@ -71,12 +70,7 @@ const MainBanner = () => {
                                                     Get Started
                                                 </Link>
 
-                                                <div
-                                                    onClick={e => {e.preventDefault(); openModal()}}
-                                                    className="video-btn popup-youtube"
-                                                > 
-                                                    <i className="flaticon-play-button"></i> Watch Video
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +90,6 @@ const MainBanner = () => {
                                     <div className="banner-content">
                                         <span className="sub-title">Seo Marketing</span>
                                         <h1>We Provide Best SEO Marketing Solutions</h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                         
                                         <div className="btn-box">
                                             <div className="d-flex align-items-center">
@@ -104,12 +97,7 @@ const MainBanner = () => {
                                                     Get Started
                                                 </Link>
 
-                                                <div
-                                                    onClick={e => {e.preventDefault(); openModal()}}
-                                                    className="video-btn popup-youtube"
-                                                > 
-                                                    <i className="flaticon-play-button"></i> Watch Video
-                                                </div>
+                                               
                                             </div>
                                         </div>
                                     </div>
